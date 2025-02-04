@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2GESr2N+fAA=",
+  "dgSpecHash": "OEIsN+HiiEM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\OneDrive\\Área de Trabalho\\Projeto_Modelo\\YoutubeService\\IntegrationService\\IntegrationService.csproj",
+  "projectFilePath": "C:\\RDManipulacao\\RDManipulacao\\IntegrationService\\IntegrationService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",

@@ -271,28 +271,6 @@ namespace API.YoutubeService
                 {
                     try
                     {
-                        //if (objYoutubeVideos != null)
-                        //{
-                        //    var retornos = await _rdManipulacaoService.UpdateYoutubeVideos(objYoutubeVideos);
-
-                        //    if (retornos.Count > 0)
-                        //    {
-                        //        JsonSerializerOptions options = new JsonSerializerOptions()
-                        //        {
-                        //            DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull
-                        //        };
-
-                        //        return Results.Ok(JsonSerializer.Serialize(retornos, options));
-                        //    }
-                        //    else
-                        //    {
-                        //        return Results.NotFound();
-                        //    }
-                        //}
-                        //else
-                        //{
-                        //    return Results.BadRequest("Sem dados para processar");
-                        //}
                         return Results.Ok();
                     }
                     catch (ArgumentException ex)
@@ -305,7 +283,6 @@ namespace API.YoutubeService
                     }
                 })
                 .Produces(StatusCodes.Status401Unauthorized)
-                //.Produces<List<RetornoMovimentacaoCadastralPFDTO>>(StatusCodes.Status200OK)
                 .Produces(StatusCodes.Status400BadRequest)
                 .WithName("UpdateVideos")
                 .WithTags("Update de videos")

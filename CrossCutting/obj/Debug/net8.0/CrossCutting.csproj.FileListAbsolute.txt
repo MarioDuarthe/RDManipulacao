@@ -17,3 +17,23 @@ C:\Users\Dell\OneDrive\Área de Trabalho\Projeto_Modelo\YoutubeService\CrossCutt
 C:\Users\Dell\OneDrive\Área de Trabalho\Projeto_Modelo\YoutubeService\CrossCutting\obj\Debug\net8.0\ref\CrossCutting.dll
 C:\Users\Dell\OneDrive\Área de Trabalho\Projeto_Modelo\YoutubeService\CrossCutting\bin\Debug\net8.0\Data.dll
 C:\Users\Dell\OneDrive\Área de Trabalho\Projeto_Modelo\YoutubeService\CrossCutting\bin\Debug\net8.0\Data.pdb
+C:\RDManipulacao\RDManipulacao\CrossCutting\bin\Debug\net8.0\CrossCutting.deps.json
+C:\RDManipulacao\RDManipulacao\CrossCutting\bin\Debug\net8.0\CrossCutting.dll
+C:\RDManipulacao\RDManipulacao\CrossCutting\bin\Debug\net8.0\CrossCutting.pdb
+C:\RDManipulacao\RDManipulacao\CrossCutting\bin\Debug\net8.0\Data.dll
+C:\RDManipulacao\RDManipulacao\CrossCutting\bin\Debug\net8.0\Domain.dll
+C:\RDManipulacao\RDManipulacao\CrossCutting\bin\Debug\net8.0\Services.dll
+C:\RDManipulacao\RDManipulacao\CrossCutting\bin\Debug\net8.0\Data.pdb
+C:\RDManipulacao\RDManipulacao\CrossCutting\bin\Debug\net8.0\Domain.pdb
+C:\RDManipulacao\RDManipulacao\CrossCutting\bin\Debug\net8.0\Services.pdb
+C:\RDManipulacao\RDManipulacao\CrossCutting\obj\Debug\net8.0\CrossCutting.csproj.AssemblyReference.cache
+C:\RDManipulacao\RDManipulacao\CrossCutting\obj\Debug\net8.0\CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\RDManipulacao\RDManipulacao\CrossCutting\obj\Debug\net8.0\CrossCutting.AssemblyInfoInputs.cache
+C:\RDManipulacao\RDManipulacao\CrossCutting\obj\Debug\net8.0\CrossCutting.AssemblyInfo.cs
+C:\RDManipulacao\RDManipulacao\CrossCutting\obj\Debug\net8.0\CrossCutting.csproj.CoreCompileInputs.cache
+C:\RDManipulacao\RDManipulacao\CrossCutting\obj\Debug\net8.0\CrossCutting.sourcelink.json
+C:\RDManipulacao\RDManipulacao\CrossCutting\obj\Debug\net8.0\CrossCut.C7E4F570.Up2Date
+C:\RDManipulacao\RDManipulacao\CrossCutting\obj\Debug\net8.0\CrossCutting.dll
+C:\RDManipulacao\RDManipulacao\CrossCutting\obj\Debug\net8.0\refint\CrossCutting.dll
+C:\RDManipulacao\RDManipulacao\CrossCutting\obj\Debug\net8.0\CrossCutting.pdb
+C:\RDManipulacao\RDManipulacao\CrossCutting\obj\Debug\net8.0\ref\CrossCutting.dll

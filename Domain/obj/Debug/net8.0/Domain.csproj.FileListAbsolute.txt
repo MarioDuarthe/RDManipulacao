@@ -10,3 +10,16 @@ C:\Users\Dell\OneDrive\Área de Trabalho\Projeto_Modelo\YoutubeService\Domain\ob
 C:\Users\Dell\OneDrive\Área de Trabalho\Projeto_Modelo\YoutubeService\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\Dell\OneDrive\Área de Trabalho\Projeto_Modelo\YoutubeService\Domain\obj\Debug\net8.0\ref\Domain.dll
 C:\Users\Dell\OneDrive\Área de Trabalho\Projeto_Modelo\YoutubeService\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\RDManipulacao\RDManipulacao\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\RDManipulacao\RDManipulacao\Domain\bin\Debug\net8.0\Domain.dll
+C:\RDManipulacao\RDManipulacao\Domain\bin\Debug\net8.0\Domain.pdb
+C:\RDManipulacao\RDManipulacao\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\RDManipulacao\RDManipulacao\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\RDManipulacao\RDManipulacao\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\RDManipulacao\RDManipulacao\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\RDManipulacao\RDManipulacao\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\RDManipulacao\RDManipulacao\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\RDManipulacao\RDManipulacao\Domain\obj\Debug\net8.0\Domain.dll
+C:\RDManipulacao\RDManipulacao\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\RDManipulacao\RDManipulacao\Domain\obj\Debug\net8.0\Domain.pdb
+C:\RDManipulacao\RDManipulacao\Domain\obj\Debug\net8.0\ref\Domain.dll
