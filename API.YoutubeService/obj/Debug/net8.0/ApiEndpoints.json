@@ -1,0 +1,219 @@
+[
+  {
+    "ContainingType": "API.YoutubeService.Startup",
+    "Method": "\u003CConfigure\u003Eb__5_1",
+    "RelativePath": "Authorization",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      },
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Acesso"
+    ],
+    "EndpointName": "Authorization"
+  },
+  {
+    "ContainingType": "API.YoutubeService.Startup",
+    "Method": "\u003CConfigure\u003Eb__5_6",
+    "RelativePath": "DeleteVideo",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      },
+      {
+        "Type": "System.Collections.Generic.IDictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Exclus\u00E3o de video"
+    ],
+    "EndpointName": "DeleteVideos"
+  },
+  {
+    "ContainingType": "API.YoutubeService.Startup",
+    "Method": "\u003CConfigure\u003Eb__5_8",
+    "RelativePath": "GetVideos",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "duracao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "autor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dataInicio",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "dataFim",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "q",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      },
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Services.DTOs.Youtube.RetornoYoutubeVideosDTO, Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Consulta de videos"
+    ],
+    "EndpointName": "GetVideos"
+  },
+  {
+    "ContainingType": "API.YoutubeService.Startup\u002B\u003C\u003Ec",
+    "Method": "\u003CConfigure\u003Eb__5_4",
+    "RelativePath": "UpdateVideo",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objYoutubeVideos",
+        "Type": "Services.DTOs.YoutubeVideosDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Update de videos"
+    ],
+    "EndpointName": "UpdateVideos"
+  },
+  {
+    "ContainingType": "API.YoutubeService.Startup",
+    "Method": "\u003CConfigure\u003Eb__5_2",
+    "RelativePath": "UploadVideo",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "q",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "publishedAfter",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "publishedBefore",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "regionCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      },
+      {
+        "Type": "System.Collections.Generic.IDictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Upload de videos"
+    ],
+    "EndpointName": "UploadVideos"
+  }
+]

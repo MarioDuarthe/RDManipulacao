@@ -1,0 +1,501 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Youtube Service - Teste",
+    "description": "API responsável por consultar informações do youtube",
+    "contact": {
+      "name": "Francimário Duarte Costa",
+      "email": "duarthe0@hotmail.com"
+    },
+    "version": "v1.0.0.0"
+  },
+  "paths": {
+    "/Authorization": {
+      "get": {
+        "tags": [
+          "Acesso"
+        ],
+        "summary": "Acesso",
+        "description": "Responsável por gerar o token de acesso aos demais serviços.",
+        "operationId": "Authorization",
+        "responses": {
+          "401": {
+            "description": "Unauthorized"
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": { }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
+    "/GetVideos": {
+      "get": {
+        "tags": [
+          "Consulta de videos"
+        ],
+        "summary": "Endpoint de consulta ",
+        "description": "Responsável por consultar dados do youtube.",
+        "operationId": "GetVideos",
+        "parameters": [
+          {
+            "name": "titulo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "duracao",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "autor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "dataInicio",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "dataFim",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "401": {
+            "description": "Unauthorized"
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RetornoYoutubeVideosDTO"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
+    "/DeleteVideo": {
+      "delete": {
+        "tags": [
+          "Exclusão de video"
+        ],
+        "summary": "Endpoint de exclusão",
+        "description": "Responsável por excluir videos.",
+        "operationId": "DeleteVideos",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "401": {
+            "description": "Unauthorized"
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
+    "/UpdateVideo": {
+      "put": {
+        "tags": [
+          "Update de videos"
+        ],
+        "summary": "Endpoint update de dados do youtube",
+        "description": "Responsável por atualizar o contendo dos dados do youtube.",
+        "operationId": "UpdateVideos",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/YoutubeVideosDTO"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "401": {
+            "description": "Unauthorized"
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
+    "/UploadVideo": {
+      "post": {
+        "tags": [
+          "Upload de videos"
+        ],
+        "summary": "Endpoint upload de dados do youtube",
+        "description": "Responsável por receber as requisições contendo os dados do youtube.",
+        "operationId": "UploadVideos",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "publishedAfter",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "publishedBefore",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "regionCode",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "401": {
+            "description": "Unauthorized"
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Id": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "type": "string",
+            "nullable": true
+          },
+          "videoId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Item": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "type": "string",
+            "nullable": true
+          },
+          "etag": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "$ref": "#/components/schemas/Id"
+          },
+          "snippet": {
+            "$ref": "#/components/schemas/Snippet"
+          },
+          "ativo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idControle": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PageInfo": {
+        "type": "object",
+        "properties": {
+          "totalResults": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "resultsPerPage": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RetornoYoutubeVideosDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kind": {
+            "type": "string",
+            "nullable": true
+          },
+          "videoId": {
+            "type": "string",
+            "nullable": true
+          },
+          "publishedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "channelId": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "channelTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "liveBroadcastContent": {
+            "type": "string",
+            "nullable": true
+          },
+          "publishTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ativo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "detalhesVideo": {
+            "$ref": "#/components/schemas/RetornoYoutubeVideosDetalheDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RetornoYoutubeVideosDetalheDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fk_youtubeVideos": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "categoryId": {
+            "type": "string",
+            "nullable": true
+          },
+          "duration": {
+            "type": "string",
+            "nullable": true
+          },
+          "dimension": {
+            "type": "string",
+            "nullable": true
+          },
+          "definition": {
+            "type": "string",
+            "nullable": true
+          },
+          "viewCount": {
+            "type": "string",
+            "nullable": true
+          },
+          "likeCount": {
+            "type": "string",
+            "nullable": true
+          },
+          "favoriteCount": {
+            "type": "string",
+            "nullable": true
+          },
+          "commentCount": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Snippet": {
+        "type": "object",
+        "properties": {
+          "publishedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "channelId": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "channelTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "liveBroadcastContent": {
+            "type": "string",
+            "nullable": true
+          },
+          "publishTime": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "YoutubeVideosDTO": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "type": "string",
+            "nullable": true
+          },
+          "etag": {
+            "type": "string",
+            "nullable": true
+          },
+          "nextPageToken": {
+            "type": "string",
+            "nullable": true
+          },
+          "regionCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "pageInfo": {
+            "$ref": "#/components/schemas/PageInfo"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Item"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "basic": {
+        "type": "http",
+        "description": "Basic Auth Header(geração de token)",
+        "scheme": "basic"
+      },
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Entre com o Token JWT",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "basic": [ ]
+    },
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Modelo\\YoutubeService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{603D03BB-CAFD-420C-9C02-1D59FAA83406}|Services\\Services.csproj|c:\\users\\dell\\onedrive\\\u00E1rea de trabalho\\projeto_modelo\\youtubeservice\\services\\automapper\\modeltodtosetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{603D03BB-CAFD-420C-9C02-1D59FAA83406}|Services\\Services.csproj|solutionrelative:services\\automapper\\modeltodtosetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5592B445-06B7-4916-AE67-CC549ABA40F3}|API.YoutubeService\\API.YoutubeService.csproj|c:\\users\\dell\\onedrive\\\u00E1rea de trabalho\\projeto_modelo\\youtubeservice\\api.youtubeservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5592B445-06B7-4916-AE67-CC549ABA40F3}|API.YoutubeService\\API.YoutubeService.csproj|solutionrelative:api.youtubeservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603D03BB-CAFD-420C-9C02-1D59FAA83406}|Services\\Services.csproj|c:\\users\\dell\\onedrive\\\u00E1rea de trabalho\\projeto_modelo\\youtubeservice\\services\\services\\rdmanipulacao\\rdmanipulacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{603D03BB-CAFD-420C-9C02-1D59FAA83406}|Services\\Services.csproj|solutionrelative:services\\services\\rdmanipulacao\\rdmanipulacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603D03BB-CAFD-420C-9C02-1D59FAA83406}|Services\\Services.csproj|c:\\users\\dell\\onedrive\\\u00E1rea de trabalho\\projeto_modelo\\youtubeservice\\services\\dtos\\youtube\\retornoyoutubevideosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{603D03BB-CAFD-420C-9C02-1D59FAA83406}|Services\\Services.csproj|solutionrelative:services\\dtos\\youtube\\retornoyoutubevideosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96A68EBF-82F6-49C4-9ED0-1C3FD4E83C42}|Data\\Data.csproj|c:\\users\\dell\\onedrive\\\u00E1rea de trabalho\\projeto_modelo\\youtubeservice\\data\\repositories\\createtables\\scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96A68EBF-82F6-49C4-9ED0-1C3FD4E83C42}|Data\\Data.csproj|solutionrelative:data\\repositories\\createtables\\scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380F0039-8406-4C75-A3EE-348817E42473}|WS.IntegracaoYoutube\\WS.IntegracaoYoutube.csproj|c:\\users\\dell\\onedrive\\\u00E1rea de trabalho\\projeto_modelo\\youtubeservice\\ws.integracaoyoutube\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{380F0039-8406-4C75-A3EE-348817E42473}|WS.IntegracaoYoutube\\WS.IntegracaoYoutube.csproj|solutionrelative:ws.integracaoyoutube\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RetornoYoutubeVideosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Modelo\\YoutubeService\\Services\\DTOs\\Youtube\\RetornoYoutubeVideosDTO.cs",
+              "RelativeDocumentMoniker": "Services\\DTOs\\Youtube\\RetornoYoutubeVideosDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Modelo\\YoutubeService\\Services\\DTOs\\Youtube\\RetornoYoutubeVideosDTO.cs",
+              "RelativeToolTip": "Services\\DTOs\\Youtube\\RetornoYoutubeVideosDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T14:43:44.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Modelo\\YoutubeService\\WS.IntegracaoYoutube\\appsettings.json",
+              "RelativeDocumentMoniker": "WS.IntegracaoYoutube\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Modelo\\YoutubeService\\WS.IntegracaoYoutube\\appsettings.json",
+              "RelativeToolTip": "WS.IntegracaoYoutube\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-04T13:39:48.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModelToDTOSetup.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Modelo\\YoutubeService\\Services\\AutoMapper\\ModelToDTOSetup.cs",
+              "RelativeDocumentMoniker": "Services\\AutoMapper\\ModelToDTOSetup.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Modelo\\YoutubeService\\Services\\AutoMapper\\ModelToDTOSetup.cs",
+              "RelativeToolTip": "Services\\AutoMapper\\ModelToDTOSetup.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T11:23:02.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RDManipulacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Modelo\\YoutubeService\\Services\\Services\\RDManipulacao\\RDManipulacaoService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\RDManipulacao\\RDManipulacaoService.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Modelo\\YoutubeService\\Services\\Services\\RDManipulacao\\RDManipulacaoService.cs",
+              "RelativeToolTip": "Services\\Services\\RDManipulacao\\RDManipulacaoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T10:27:29.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Scripts.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Modelo\\YoutubeService\\Data\\Repositories\\CreateTables\\Scripts.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\CreateTables\\Scripts.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Modelo\\YoutubeService\\Data\\Repositories\\CreateTables\\Scripts.cs",
+              "RelativeToolTip": "Data\\Repositories\\CreateTables\\Scripts.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T10:23:12.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Modelo\\YoutubeService\\API.YoutubeService\\Startup.cs",
+              "RelativeDocumentMoniker": "API.YoutubeService\\Startup.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\\u00C1rea de Trabalho\\Projeto_Modelo\\YoutubeService\\API.YoutubeService\\Startup.cs",
+              "RelativeToolTip": "API.YoutubeService\\Startup.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAABoBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T20:42:09.5Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
